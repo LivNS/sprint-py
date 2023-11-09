@@ -1,0 +1,40 @@
+Integrantes:
+- Debora da Silva Amaral RM 550412
+- Levy Nascimento Junior RM 98655
+- Lívia Namba Seraphim RM 97819
+- Mateus Iago Sousa Conceição RM 550270
+- Sarah Ribeiro da Silva RM 97747
+
+*Sistema de Monitoramento de Energia Solar*
+Sistema simples de monitoramento de energia solar que permite aos usuários registrar a produção diária 
+de energia e exibir dados diários e semanais, incluindo a quantidade de CO2 produzida.
+
+O programa foi desenvolvido em Python e é executado no terminal.
+
+Funcionalidades:
+
+Registrar produção diária:
+
+O usuário pode inserir manualmente a quantidade de energia produzida diariamente em watts.
+A produção diária é registrada e utilizada para calcular a quantidade correspondente de CO2 produzida.
+Exibir dados diários:
+
+Mostra a quantidade de energia produzida diariamente.
+Exibe a quantidade de CO2 produzida.
+Apresenta a quantidade de energia atualmente no painel solar e a capacidade total do painel.
+Exibir dados semanais:
+
+Permite ao usuário visualizar um resumo semanal da produção de energia e CO2.
+Os dados semanais são apresentados somente se pelo menos sete dias de produção diária foram registrados
+
+Instruções de Uso:
+
+Ao iniciar o programa, o usuário será apresentado a um menu com opções numeradas.
+A opção "Registrar produção diária" permite inserir a quantidade de energia produzida no dia.
+A opção "Exibir dados diários" mostra informações sobre a produção diária, CO2 e status do painel solar.
+A opção "Exibir dados semanais" apresenta um resumo semanal se pelo menos sete dias foram registrados.
+A opção "Sair" encerra o programa.
+Observações:
+
+A produção diária deve ser um valor numérico maior ou igual a zero.
+O programa utiliza uma estimativa de 0,5 kg de CO2 por watt de energia produzida.
